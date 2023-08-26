@@ -1,5 +1,5 @@
 import {Component} from "react";
-import "../style/stylefc.css"
+// import "../style/stylefc.css"
 
 class ClassCompo extends Component{
     render(){

@@ -1,4 +1,4 @@
-import "../style/stylefc.css"
+// import "../style/stylefc.css"
 
 function FunCompo(){
     return(

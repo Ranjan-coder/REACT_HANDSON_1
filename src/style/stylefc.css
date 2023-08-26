@@ -1,25 +1,45 @@
+body{
+    height: 90vh;
+    background: linear-gradient(rgb(183, 183, 241),rgb(242, 162, 162),white);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+#parentmain{
+    text-align: center;
+    text-shadow: 2px 2px rgb(155, 243, 228);
+}
+#maincontaint{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 #dispg{
     display: flex;
     flex-direction: column;
-    background-color: #9bcdf0;
-    height: 560px;
-    width: 1280px;
-    /* justify-content: center; */
+    justify-content: center;
     text-align: center;
     
 }
-.buttonp{
+#clascnt{
     display: flex;
-    justify-content: space-evenly;
-    gap: 20px;
-
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
-.buttonp1{
-    display: flex;
-    justify-content: space-evenly;
-    gap: 50px;
+button{
+    width: 400px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(96, 192, 244);
+    border-radius: 25px;
+    transition: all ease 0.5s;
 }
-
+button:hover{
+    background-color: #b7e7f4;
+    box-shadow: 3px 3px 0px rgb(79, 77, 77);
+}
 .parentdiv{
     display: inline-block;
     height: 300px;
@@ -28,7 +48,7 @@
     text-align: center;
     border: 3px solid black;
     border-radius: 10px;
-    background-color: #8ddbf3;
+    background-color: #f5e2c6;
 }
 .parentdiv2{
     display: inline-block;
@@ -42,4 +62,4 @@
 }
 .firstparagraph{
     font-size: 20px;
-}
+} 
